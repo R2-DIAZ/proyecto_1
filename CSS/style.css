@@ -1,7 +1,29 @@
 body {
-    background-color: rgba(255, 255, 255, 0.877);
-    color: rgb(115, 115, 115);
+    color: #285a84;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size:large ;
+}
 
+.header {
+    display: flex;
+    height: 10vh;
+    
+
+}
+
+.logo {
+    display: flex;
+    justify-content: left;
+
+}
+
+.menu {
+    display: flex;
+    justify-content:end ;
+}
+
+.box {
+    width: 150px;
+    text-align: center;
+    
 }
