@@ -4,26 +4,40 @@ body {
     font-size:large ;
 }
 
-.header {
+header {
     display: flex;
+    flex-direction: row;
     height: 10vh;
-    
 
-}
+    }
 
-.logo {
-    display: flex;
-    justify-content: left;
-
+#logo {
+    height: 70px;
+    width: auto;
 }
 
 .menu {
-    display: flex;
-    justify-content:end ;
+    display: flex ;
+    justify-content:flex-end ;
+    background-color: aquamarine;
+    align-items: center;
 }
 
 .box {
-    width: 150px;
+    width: 120px  ;
     text-align: center;
+    background-color: blue;
     
+}
+
+jumbotron {
+    padding-top: 60px;
+}
+
+section {
+    padding-top: 60px;
+}
+
+footer {
+    padding-top: 60px;
 }
